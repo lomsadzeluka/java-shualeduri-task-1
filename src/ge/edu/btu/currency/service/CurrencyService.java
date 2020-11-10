@@ -6,4 +6,8 @@ public interface CurrencyService {
     double convert(int amount);
 
     double convert(double amount);
+
+    boolean validate(int amount);
+
+    boolean validate(double amount);
 }
